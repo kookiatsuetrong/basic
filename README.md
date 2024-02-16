@@ -25,13 +25,12 @@ About Us       History       Not Found
 '   '-- home.html
 '   '-- about.html
 '   '-- history.html
-'	'-- header.html
-'	'-- footer.html
-'	'-- error.html
+'   '-- header.html
+'   '-- footer.html
+'   '-- error.html
 '-- public
     '-- normalize.css
     '-- main.css
-
 ```
 
 ตัวอย่าง Project นี้จะใช้ Framework ชื่อ Express.js
