@@ -12,8 +12,8 @@ Web Site ของบริษัททั่วไปอาจจะมีแ�
     .-------------'-------------.
     '             '             '
     v             v             v
-About Us       History       Not Found
- /about        /history       /error 
+About Us      Not Found
+ /about         /error
 
 ```
 
@@ -24,7 +24,6 @@ About Us       History       Not Found
 '-- views
 '   '-- home.html
 '   '-- about.html
-'   '-- history.html
 '   '-- header.html
 '   '-- footer.html
 '   '-- error.html
