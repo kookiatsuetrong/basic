@@ -18,6 +18,7 @@ About Us      Not Found
 ```
 
 ตัวอย่างการเขียน Web Site ด้วย Node.js
+เริ่มต้นจากการสร้าง Directory แบบที่นิยมใช้
 ```
 .
 '-- main.js
@@ -38,16 +39,27 @@ About Us      Not Found
 
 ```javascript
 var express = require("express")
+var ejs     = require("ejs")
 var server  = express()
 server.listen(5050)
-var ejs     = require("ejs")
 server.engine("html", ejs.renderFile)
 
 server.get("/",        showHomePage)
 server.get("/about",   showAboutPage)
-server.get("/history", showHistoryPage)
 server.use(express.static("public"))
-server.use(showError)
+server.use(showErrorPage)
+
+function showHomePage(request, response) {
+	response.render("home.html")
+}
+
+function showAboutPage(request, response) {
+	response.render("about.html")
+}
+
+function showErrorPage(request, response) {
+	response.render("error.html")
+}
 
 ```
 
