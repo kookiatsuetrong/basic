@@ -2,17 +2,379 @@
 <html>
 	<head>
 		<title>Welcome</title>
-		<link rel="stylesheet" href="/normalize.css" />
 		<link rel="stylesheet" href="/main.css" />
 	</head>
 	
 	<body>
-		<header></header>
-		<main>
+		<header>
+			<nav class="container">
+				<span>
+					<a class="logo" href=""><h3>Sample</h3></a>
+				</span>
+				<span>
+					&nbsp;
+				</span>
+				<span class="menu-container">
+					<a class="menu" href="">Create Account</a>
+					<a class="menu" href="">Log In</a>
+				</span>
+			</nav>
+
 			<section class="container">
-				<h3>Welcome</h3>
+				<h1>New Business Model</h1>
+				<p>The quick brown fox jumps over a lazy dog</p>
+				<a class="white-button" href="">Create Account</a>
+				<a class="white-button" href="">Log In</a>
+			</section>
+		</header>
+
+		<main>
+			<h2 class="slogan">Additional Detail of Service</h2>
+			<br/>
+
+			<section class="container trio">
+				<p>
+					The quick brown fox jumps over a lazy dog.
+					The quick brown dog jumps over a lazy fox.
+					The quick fox jumps over a lazy brown dog.
+					The quick dog jumps over a lazy brown fox.
+				</p>
+				<p>
+					The quick brown fox jumps over a lazy dog.
+					The quick brown dog jumps over a lazy fox.
+					The quick fox jumps over a lazy brown dog.
+					The quick dog jumps over a lazy brown fox.
+				</p>
+				<p>
+					The quick brown fox jumps over a lazy dog.
+					The quick brown dog jumps over a lazy fox.
+					The quick fox jumps over a lazy brown dog.
+					The quick dog jumps over a lazy brown fox.
+				</p>
+			</section>
+			<br/>
+			<br/>
+			<section class="container duo">
+				<section class="panel">
+					<h3>Create Account</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+						The quick fox jumps over a lazy brown dog.
+						The quick dog jumps over a lazy brown fox.
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+						The quick fox jumps over a lazy brown dog.
+						The quick dog jumps over a lazy brown fox.
+					</p>
+					<span>
+						<a class="button" 
+							href="">Create Account</a>
+					</span>
+				</section>
+				<section class="panel">
+					<h3>Log In</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+						The quick fox jumps over a lazy brown dog.
+						The quick dog jumps over a lazy brown fox.
+					</p>
+					<span>
+						<a class="button" 
+							href="">Log In</a>
+					</span>
+				</section>
+			</section>
+			<br/>
+			<br/>
+
+			<section class="statistics">
+				<section class="container trio">
+					<span>
+						<h1>24x7</h1>
+						<p>The quick brown fox jumps over a lazy dog.</p>
+					</span>
+					<span>
+						<h1>100+</h1>
+						<p>The quick brown fox jumps over a lazy dog.</p>
+					</span>
+					<span>
+						<h1>98.5%</h1>
+						<p>The quick brown fox jumps over a lazy dog.</p>
+					</span>
+				</section>
+			</section>
+
+			<br/>
+			<br/>
+			<section class="container feature-container">
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+					</p>
+				</section>
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+					</p>
+				</section>
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+					</p>
+				</section>
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+					</p>
+				</section>
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+					</p>
+				</section>
+				<section class="feature">
+					<h1>X</h1>
+					<h3>Sample Feature</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+					</p>
+				</section>
+			</section>
+
+			<section class="container">
+				<section class="photo-left">
+					<img />
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+					</p>
+				</section>
+				<section class="photo-right">
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+					</p>
+					<img />
+				</section>
 			</section>
 		</main>
-		<footer></footer>
+
+		<style>
+		header {
+			min-height: 32rem;
+			background-image: var(--header-background);
+			color: white;
+		}
+		header nav {
+			padding-top: .5rem;
+			display: grid;
+			grid-template-columns: 6rem 1fr 14rem;
+		}
+		header nav span {
+			height: 2rem;
+		}
+		header nav .menu-container {
+			text-align: right;
+		}
+		header nav .menu {
+			margin-left: 1rem;
+			transition: color .15s linear;
+		}
+		header nav .menu:hover {
+			color: #666;
+		}
+		header nav a {
+			color: white;
+		}
+		header h1 {
+			font-size: 3rem;
+			margin-top: 8rem;
+		}
+		header p {
+			font-size: 1.25rem;
+			color: white;
+		}
+
+		.white-button {
+			background: white;
+			padding: .5rem 1rem;
+			color: var(--button-text-color);
+			border-radius: 2rem;
+			border: .1rem solid white;
+			margin-right: .25rem;
+			transition: background .15s linear,
+						color .15s linear;
+		}
+		.white-button:hover {
+			background: none;
+			color: white;
+		}
+
+		main .slogan {
+			margin: 1rem 0 0 0;
+			text-align: center;
+		}
+		main p {
+			color: #444;
+		}
+
+		.duo {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
+		@media (min-width: 768px) {
+			.duo {
+				grid-template-columns: 1fr 1fr;
+				column-gap: 2rem;
+			}
+		}
+
+		.trio {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
+		@media (min-width: 768px) {
+			.trio {
+				grid-template-columns: 1fr 1fr 1fr;
+				column-gap: 2rem;
+			}
+		}
+
+		.panel {
+			background: rgba(0, 0, 0, .05);
+			border-radius: .75rem;
+			padding: 1.5rem;
+			display: grid;
+			grid-template-rows: auto 1fr auto;
+			margin-bottom: 2rem;
+		}
+		.panel h3 {
+			margin: 0;
+			text-align: center;
+		}
+		.panel p {
+			margin-bottom: 2rem;
+		}
+
+		.button {
+			background-color: var(--button-background);
+			transition: background .15s linear;
+			color: white;
+			padding: .5rem 1rem;
+			border-radius: 2rem;
+		}
+		.button:hover {
+			background-color: var(--button-background-hover);
+		}
+
+		.feature-container {
+			display: grid;
+			column-gap: 2rem;
+		}
+		@media (min-width: 480px) {
+			.feature-container {
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+		@media (min-width: 768px) {
+			.feature-container {
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+		}
+		.feature {
+			margin-bottom: 2rem;
+		}
+		.feature h1 {
+			font-size: 4rem;
+			color: #999;
+		}
+		.feature h3 {
+			color: var(--brand-color);
+		}
+
+		.statistics {
+			background: rgba(0, 0, 0, .5);
+			text-align: center;
+			color: white;
+			padding: 8rem 0 6rem 0;
+		}
+		.statistics h1 {
+			font-size: 3rem;
+		}
+		.statistics p {
+			margin: 0;
+			margin-bottom: 2rem;
+			color: white;
+		}
+
+		.photo-left,
+		.photo-right {
+			display: grid;
+			column-gap: 2rem;
+			margin: 2rem 0;
+		}
+		@media (min-width: 768px) {
+			.photo-left {
+				grid-template-columns: 1fr 22rem;
+			}
+			.photo-right {
+				grid-template-columns: 22rem 1fr;
+			}
+		}
+
+		.photo-left img,
+		.photo-right img {
+			background: rgba(0, 0, 0, .05);
+			border-radius: .75rem;
+			border: .1rem solid #ccc;
+			width: 100%;
+			min-height: 20rem;
+		}
+
+		</style>
+
+		<footer>
+			<section class="container footer-container">
+				<span>
+					<a href="/">Home</a>
+					<a href="/about">About</a>
+					<a href="">Service</a>
+					<a href="">Payment</a>
+				</span>
+				<span>
+
+					<a href="">Create Account</a>
+					<a href="">Log In</a>
+					<a href="">Reset Password</a>
+
+					<a href="">Contact Us</a>
+				</span>
+				<span>
+					<h3>Sample.com</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+						<br/>
+						<br/>
+						Copyright &copy; 2023
+					</p>
+				</span>
+			</section>
+		</footer>
 	</body>
 </html>

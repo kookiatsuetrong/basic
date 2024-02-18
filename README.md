@@ -44,8 +44,8 @@ var server  = express()
 server.listen(5050)
 server.engine("html", ejs.renderFile)
 
-server.get("/",        showHomePage)
-server.get("/about",   showAboutPage)
+server.get("/",      showHomePage)
+server.get("/about", showAboutPage)
 server.use(express.static("public"))
 server.use(showErrorPage)
 

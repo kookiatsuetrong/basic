@@ -1,6 +1,14 @@
+@import "normalize.css";
+@import "font.css";
+
+html {
+	font-size: 1.1rem;
+}
+
 body {
-	font-family: sans-serif;
+	font-family: "public-sans";
 	color: #333;
+	min-height: 100dvh;
 }
 
 .container {
@@ -8,3 +16,189 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 }
+
+body {
+	background: #f8fdff;
+	/* background: #f8fffd; */
+	/* background: #fffdfd; */
+	background-image: url(background-angles.png);
+	background-size: 100% auto;
+	min-height: 100dvh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+h1 { font-size: 2.00rem; font-weight: 400; margin: 0; }
+h2 { font-size: 1.75rem; font-weight: 400; margin: 0; }
+h3 { font-size: 1.50rem; font-weight: 400; margin: 0; }
+
+.container {
+	width: 96%;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+:root {
+	/* green */
+	--header-background: linear-gradient(240deg, 
+						rgba(187, 221, 187, .75),
+						rgba( 32, 176, 160, .85));
+	/* red */
+	--header-background: linear-gradient(240deg, 
+						rgba(221, 187, 187, .75),
+						rgba(176, 32, 48, .85));
+	/* blue */
+	--header-background: linear-gradient(240deg, 
+						rgba(120, 220, 255, .75),
+						rgba( 50, 140, 220, .85));
+	
+	/* green */
+	--button-background: rgba( 32, 176, 160, .85);
+	--button-background-hover: rgba( 32, 176, 160, 1);
+	/* red */
+	--button-background: rgba( 176, 32, 32, .8);
+	--button-background-hover: rgba( 176, 32, 32, 1);
+	/* blue */
+	--button-background:       rgba( 32, 160, 220, .85);
+	--button-background-hover: rgba( 32, 160, 220, 1);
+	
+	/* green */
+	--brand-color: rgba(32, 180, 160, 1);
+	/* red */
+	--brand-color: rgba(220, 32, 32, 1);
+	/* blue */
+	--brand-color: rgba(32, 160, 220, 1);
+	
+	--footer-background: rgba(0, 0, 0, .75);
+	
+	--form-border: #bbddff;
+	
+	--input-border: #ccc;
+	--input-border-hover: #bbb;
+	--input-border-focus: #bbb;
+	--input-height: 2rem;
+	--input-border-radius: .25rem;
+	--textarea-height: 8rem;
+	
+	--button-border: #ccc;
+	--button-border-hover: #bbb;
+	--button-text-color: #888;
+	--button-text-color-hover: #333;
+	--button-height: 2.275rem;
+	--button-border-radius: .25rem;
+
+}
+* {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+p {
+	font-size: 1.10rem;
+	line-height: 1.75rem;
+	color: #333;
+}
+label {
+	margin-bottom: .25rem;
+}
+input,
+textarea {
+	border: .1rem solid var(--input-border);
+	border-radius: var(--input-border-radius);
+	height: var(--input-height);
+	font-size: 1.1rem;
+	padding: 0.06rem .5rem;
+	transition: border .2s linear;
+	width: calc(100% - 1.17rem);
+	background: rgba(255, 255, 255, .75);
+}
+textarea {
+	height: var(--textarea-height);
+	padding: .5rem;
+	resize: vertical;
+}
+input:hover,
+textarea:hover {
+	border: .1rem solid var(--input-border-hover);
+}
+input:focus,
+textarea:focus {
+	border: .1rem solid var(--input-border-focus);
+}
+input::placeholder,
+textarea::placeholder {
+	color: #ccc;
+	font-size: 1rem;
+	font-weight: 300;
+	transition: color .2s linear;
+}
+input:hover::placeholder,
+textarea:hover::placeholder {
+	color: #999;
+}
+button {
+	color: var(--button-text-color);
+	border: .1rem solid var(--button-border);
+	border-radius: var(--button-border-radius);
+	height: var(--button-height);
+	font-size: 1.1rem;
+	padding: .27rem .5em;
+	transition: color .15s linear, border .15s linear;
+}
+button:hover {
+	color: var(--button-text-color-hover);
+	border: .1rem solid var(--button-border-hover);
+}
+input[type=file] {
+	padding: 1rem 0 .75rem 1rem;
+	border: .2rem dashed #ddd;
+	width: calc(100% - 1.4rem);
+	transition: background .15s linear,
+				border .15s linear;
+}
+input[type=file].active-file-upload {
+	border: .2rem dashed #666;
+	background: #eee;
+}
+main {
+	padding: 2rem 0;
+}
+footer {
+	background: var(--footer-background);
+	color: white;
+	padding: 2rem 0;
+}
+footer a {
+	color: #ccc;
+	display: block;
+	margin-bottom: 1rem;
+	transition: transform .15s linear,
+				color .15s linear;
+}
+footer a:hover {
+	color: white;
+	transform: translateX(.5rem);
+}
+footer p {
+	color: white;
+}
+footer .footer-container {
+	display: grid;
+	column-gap: 2rem;
+}
+@media (min-width: 480px) {
+	footer .footer-container {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 768px) {
+	footer .footer-container {
+		grid-template-columns: 1fr 1fr 1.8fr;
+	}
+}
+input[type=file] {
+	
+}
+

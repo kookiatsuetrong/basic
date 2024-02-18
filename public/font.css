@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Black.ttf") format("opentype");
+	font-weight: 900;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-BlackItalic.ttf") format("opentype");
+	font-weight: 900;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-ExtraBold.ttf") format("opentype");
+	font-weight: 800;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-ExtraBoldItalic.ttf") format("opentype");
+	font-weight: 800;
+}@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Bold.ttf") format("opentype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-BoldItalic.ttf") format("opentype");
+	font-weight: 700;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-SemiBold.ttf") format("opentype");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-SemiBoldItalic.ttf") format("opentype");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Medium.ttf") format("opentype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-MediumItalic.ttf") format("opentype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Regular.ttf") format("opentype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-Italic.ttf") format("opentype");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Light.ttf") format("opentype");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-LightItalic.ttf") format("opentype");
+	font-weight: 300;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-ExtraLight.ttf") format("opentype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-ExtraLightItalic.ttf") format("opentype");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "public-sans";
+	src: url("/public-sans/PublicSans-Thin.ttf") format("opentype");
+	font-weight: 100;
+}
+@font-face {
+	font-family: "public-sans";
+	font-style: italic;
+	src: url("/public-sans/PublicSans-ThinItalic.ttf") format("opentype");
+	font-weight: 100;
+}
+
