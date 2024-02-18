@@ -6,13 +6,24 @@ Project นี้เป็น Web Application
 
 ![](cover.png)
 
-Project นี้จะมี 3 Branches คือ Basic, Database, และ Full
+
+## Branches
+Project นี้จะมี 3 Branches คือ basic, database, และ full
+
+```
+basic    ---> for common web site
+database ---> for common web site with contact page
+full     ---> for the full features of this project
+```
+
 
 ## Common Web Site
 
 Web Site ของบริษัททั่วไปอาจจะมีแค่ 2-3 หน้า ก็ได้
 ไม่จำเป็นต้องมี Database ให้ยุ่งยาก
 ทำแค่ Static Content ให้ดูดีเหมือนบริษัทชั้นนำก่อนในช่วงแรก
+
+ถ้าต้องการ Web Site พื้นฐาน Project นี้จะอยู่ที่ Branch ชื่อ basic
 
 ```
             The Home Page 
