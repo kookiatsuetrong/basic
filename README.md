@@ -1,3 +1,13 @@
+## The Basic Project
+
+Project นี้เป็น Web Application
+แบบ Full Stack มีครบทุกส่วน
+ตั้งแต่ Frontend, Datatabase, Web Service, รวมถึงระบบ Transaction Email
+
+![](cover.png)
+
+Project นี้จะมี 3 Branches คือ Basic, Database, และ Full
+
 ## Common Web Site
 
 Web Site ของบริษัททั่วไปอาจจะมีแค่ 2-3 หน้า ก็ได้
