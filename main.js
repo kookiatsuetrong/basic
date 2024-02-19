@@ -5,7 +5,9 @@ server.listen(5050)
 server.engine("html", ejs.renderFile)
 var readBody = express.urlencoded({extended:false})
 
-var database = require("./mongodb")
+// var database = require("./mongodb")
+var database = require("./mysql")
+
 
 server.get ("/",        showHomePage)
 server.get ("/about",   showAboutPage)
