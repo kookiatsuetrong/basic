@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<link rel="stylesheet" href="/main.css" />
+	</head>
+	
+	<body>
+		<header>
+		</header>
+		
+		<main>
+			<section class="container">
+				<h3>Contact Us</h3>
+				<p>
+					Please fill in the following information.
+				</p>
+				<form method="post">
+					<input name="topic" placeholder="Topic" />
+					<textarea name="detail" placeholder="Detail"
+						></textarea>
+					<section class="duo">
+						<input name="email" placeholder="Your Email" />
+						<button>Send</button>
+					</section>
+				</form>
+			</section>
+		</main>
+		
+		<footer>
+			<section class="container footer-container">
+				<span>
+					<a href="/">Home</a>
+					<a href="/about">About</a>
+					<a href="">Service</a>
+					<a href="">Payment</a>
+				</span>
+				<span>
+
+					<a href="">Create Account</a>
+					<a href="">Log In</a>
+					<a href="">Reset Password</a>
+
+					<a href="">Contact Us</a>
+				</span>
+				<span>
+					<h3>Sample.com</h3>
+					<p>
+						The quick brown fox jumps over a lazy dog.
+						The quick brown dog jumps over a lazy fox.
+						<br/>
+						<br/>
+						Copyright &copy; 2023
+					</p>
+				</span>
+			</section>
+		</footer>
+	</body>
+	<style>
+		form > * {
+			margin-bottom: 1rem;
+		}
+		.duo {
+			display: grid;
+			column-gap: 1rem;
+			grid-template-columns: 1fr 8rem;
+		}
+	</style>
+</html>
