@@ -8,6 +8,12 @@ Project นี้เป็น Web Application
 
 Project นี้จะมี 3 Branches คือ Basic, Database, และ Full
 
+```
+basic    ---> for common web site
+database ---> for common web site with contact page
+full     ---> for the full features of this project
+```
+
 ## Common Web Site
 
 Web Site ของบริษัททั่วไปอาจจะมีแค่ 2-3 หน้า ก็ได้
@@ -81,8 +87,8 @@ function showErrorPage(request, response) {
 
 ```javascript
 server.get ("/contact", showContactPage)
-server.post("/contact", saveContactDetail)
-server.get ("/contact-received", showContactReceived)
+server.post("/contact", readBody, saveContactMessageDetail)
+server.get ("/contact-complete",  showContactComplete)
 
 ```
 
@@ -98,7 +104,6 @@ server.get ("/contact-received", showContactReceived)
 server.get ("/login", showLogInPage)
 server.post("/login", checkPassword)
 server.get ("/profile", showStaffProfilePage)
-
 ```
 
 
