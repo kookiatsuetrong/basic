@@ -81,8 +81,19 @@ function showErrorPage(request, response) {
 
 ## Database
 
-หน้าต่อไปที่ควรมีคือหน้า Contact Us 
-เพื่อให้ผู้ใช้สามารถส่งข้อมูลถึงบริษัทได้
+ในระบบนี้จะมี Database Management System
+ให้เลือกได้สองแบบคือ MySQL และ MongoDB
+อยู่ใน File ชื่อ mysql.js และ mongodb.js
+แต่การใช้งานต้องเลือกแค่แบบเดียว
+
+```javascript
+var database = require("./mongodb")
+
+// var database = require("./mysql")
+```
+
+ตัวอย่างคือหน้า Contact Us 
+มีหน้าที่หลักคือเพื่อให้ผู้ใช้สามารถส่งข้อมูลถึงบริษัทได้
 หน้านี้จะมี Request สองแบบ คือ แบบ GET และ POST
 
 ```javascript
