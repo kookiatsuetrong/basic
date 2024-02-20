@@ -31,7 +31,9 @@ function showErrorPage(request, response) {
 }
 
 function showContactPage(request, response) {
-	response.render("contact.html")
+	var model = { }
+	model.error = request.query.error || ""
+	response.render("contact.html", model)
 }
 
 async function saveContactMessageDetail(request, response) {
