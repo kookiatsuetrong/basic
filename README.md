@@ -16,13 +16,6 @@ database ---> for common web site with contact page
 full     ---> for the full features of this project
 ```
 
-
-```
-basic    ---> for common web site
-database ---> for common web site with contact page
-full     ---> for the full features of this project
-```
-
 ## Common Web Site
 
 Web Site ของบริษัททั่วไปอาจจะมีแค่ 2-3 หน้า ก็ได้
