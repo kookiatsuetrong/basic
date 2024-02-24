@@ -87,7 +87,11 @@ function showErrorPage(request, response) {
 
 ในระบบนี้จะมี Database Management System
 ให้เลือกได้สองแบบคือ MySQL และ MongoDB
-อยู่ใน File ชื่อ mysql.js และ mongodb.js
+
+![](database.png)
+
+
+Code ใน File ชื่อ mysql.js และ mongodb.js
 แต่การใช้งานต้องเลือกแค่แบบเดียว
 
 ```javascript
