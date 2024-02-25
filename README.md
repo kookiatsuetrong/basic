@@ -87,11 +87,13 @@ function showErrorPage(request, response) {
 
 ในระบบนี้จะมี Database Management System
 ให้เลือกได้สองแบบคือ MySQL และ MongoDB
+ดังนั้นต้องสร้าง Database Layer ที่มีสองแบบ
+แต่ใช้ Interface แบบเดียวกัน 
+หรือ Export Functions ออกมาเหมือนกัน
 
 ![](database.png)
 
-
-Code ใน File ชื่อ mysql.js และ mongodb.js
+ตัวอย่าง Code อยู่ใน File ชื่อ mysql.js และ mongodb.js
 แต่การใช้งานต้องเลือกแค่แบบเดียว
 
 ```javascript
